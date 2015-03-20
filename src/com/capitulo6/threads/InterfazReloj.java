@@ -13,7 +13,7 @@ public class InterfazReloj extends javax.swing.JFrame {
         Calendar cal = Calendar.getInstance();
                 String time = cal.get(Calendar.HOUR_OF_DAY) + ":" + cal.get(Calendar.MINUTE) + ":" + cal.get(Calendar.SECOND);
 
-                EtiquetaReloj.setText("la hr es: " + time);
+                EtiquetaReloj.setText(time);
         }
     }
 
@@ -52,6 +52,7 @@ public class InterfazReloj extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new InterfazReloj().setVisible(true);
+                InterfazReloj reloj = new InterfazReloj();
             }
         });
     }

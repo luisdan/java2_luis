@@ -35,7 +35,7 @@ public class ProbarThreads {
         t2.start();
         t3.start();
         
-        //treloj.start();
+        treloj.start();
         
     }
     

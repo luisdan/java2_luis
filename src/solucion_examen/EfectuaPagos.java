@@ -1,4 +1,4 @@
-importjava.util.*;
+/*importjava.util.*;
 
 package solucion_examen;
 
@@ -18,3 +18,6 @@ public class EfectuaPagos {
     }
     
 }
+
+
+*/
